@@ -1,0 +1,13 @@
+.first{
+    position: relative; 
+    width: 60%
+}
+a{
+    color: black;
+    Text-decoration: none; 
+}
+
+.Fuel:active{
+    color: maroon;
+}
+

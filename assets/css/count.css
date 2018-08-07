@@ -1,0 +1,103 @@
+.Box{
+    text-align: center;
+    margin-top: 30vh;
+    margin-left: 32%;
+    border: 1px solid none;
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+    background-color: #4ab7c2;
+}
+
+#days{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding-right: 53px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-top: 35px;
+    background-color: rgb(48, 38, 38);
+    border: 1px solid none;
+    border-radius: 550px;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.Label{
+    position: absolute;
+    display: inline;
+}
+
+#hours{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(48, 38, 38);
+    border: 1px solid none;
+    border-radius: 550px;
+    color: white;
+    font-size: 50px;
+}
+
+#mins{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(48, 38, 38);
+    border: 1px solid none;
+    border-radius: 550px;
+    color: white;
+    font-size: 50px;
+}
+
+#secs{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(48, 38, 38);
+    border: 1px solid none;
+    border-radius: 550px;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+ul#example {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+ul#example li { display: inline-block; }
+
+ul#example li span {
+ 
+  font-weight: 300;
+  line-height:50px;
+}
+
+ul#example li.seperator {
+  font-size: 80px;
+  line-height: 70px;
+  vertical-align: top;
+}
+
+ul#example li p {
+  color: black;
+  font-size: 25px;
+}

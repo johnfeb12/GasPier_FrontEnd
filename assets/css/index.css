@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+
+body{
+    margin: 0px;
+    overflow-y: hidden;
+    background-color: black;
+    font-family: 'Catamaran', sans-serif !important;
+    letter-spacing: 2px;
+
+}
+
+.banner{
+    background-image: url('../images/gas-station-darker2.jpg');
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-position:center;
+    overflow-y: hidden;
+    text-align: center;
+    position: static;
+    z-index: 0; 
+    opacity: .9;
+ 
+    
+}
+
+.content{
+    height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 9;
+    top: -100vh;
+    
+    
+    
+}
+
+#slogan:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.slogan{
+     text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+    
+}
+
+.typewrite {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+.lowerSlogan{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+   
+}
+
+.buttonTalk{
+    margin-top: 2%;
+    background-color: #f85800;
+    border: 0px solid #f85800;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+    border-radius: 50px;
+    letter-spacing: 0.1em;
+    transition: all .3s ease-in-out !important;
+    text-transform: uppercase;
+
+    
+}
+
+
+
+.business{
+    text-align: center;
+    color: white;
+
+}
+
+
+.buttonContainer
+{
+    text-align: center;
+}
+.Buyer, .Seller{
+    margin-top: 1%;
+    margin-right: 1%;
+    background-color: #f85800;
+    border: 0px solid #f85800;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    border:none;
+    transition: all .3s ease-in-out !important;
+    font-size: 16px ;
+    line-height:20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+    
+   
+    
+}
+
+.Buyer:focus, .Seller:focus{
+    outline: 0;
+}
+
+.Buyer:active, .Seller:active{
+    background-color: #ff6c1c;
+}
+
+.buttonTalk:focus{
+    outline: 0;
+}
+
+.buttonTalk:active{
+        background-color: #ff6c1c;
+
+}
+
+.offer{
+    margin-bottom: 50px;
+}
